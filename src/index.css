@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --vyom-charcoal: #1b1d20;
+  --vyom-orange: #ff7b00;
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-[color:var(--vyom-charcoal)] text-white font-poppins;
+}
+
+/* subtle glass card */
+.card-bg {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(6px);
+}
+
+/* small utility */
+.hr-ghost{ height:1px; background: rgba(255,255,255,0.06); }
