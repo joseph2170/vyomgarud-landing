@@ -7,8 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/joseph2170/vyomgarud-landing.git"
-  },
+"deploy": "npx gh-pages -d dist -r https://github.com/joseph2170/vyomgarud-landing.git -u 'GitHub Pages Bot' -m 'Deploy to GitHub Pages'"  },
   "homepage": "https://joseph2170.github.io/vyomgarud-landing",
   "dependencies": {
     "framer-motion": "^10.18.0",
