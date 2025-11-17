@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist -r https://github.com/joseph2170/vyomgarud-landing.git"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/joseph2170/vyomgarud-landing.git"
+  },
   "homepage": "https://joseph2170.github.io/vyomgarud-landing",
   "dependencies": {
     "framer-motion": "^10.18.0",
