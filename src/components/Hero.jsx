@@ -29,6 +29,7 @@ export default function Hero(){
           </motion.div>
         </div>
 
+        {/* ADD BACK THE IMAGE SECTION */}
         <div className="md:w-1/2">
           <motion.div
             initial={{scale:0.98, opacity:0}}
